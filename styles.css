@@ -27,6 +27,7 @@ body {
             padding: 15px;
             border: 2px solid black;
             border-radius: 5px;
+			list-style-type:none;
         }
 
         ul {
@@ -48,6 +49,7 @@ body {
             margin: 10px auto;
             padding: 20px;
             text-align: center;
+			border-radius:2px;
         }
 
         video, audio {
