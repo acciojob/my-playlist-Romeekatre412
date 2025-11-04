@@ -1,71 +1,68 @@
- body {
+body {
+            background-color: rgb(204, 204, 204);
             font-family: Arial, sans-serif;
-            background-color: lightgray; 
-            padding: 20px;
             margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            padding: 0;
         }
 
-        h1, h2 {
+        /* === Headings === */
+        h1 {
             text-align: center;
-            width: 100%;
-            max-width: 600px; 
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 20px;
         }
 
-        .player_one {
-            width: 100%;
-            max-width: 600px; 
+        h2 {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        /* === Playlist Box === */
+        .playlist-box {
             background-color: white;
-            border: 1px solid black;
-            padding: 15px 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-			border-radius:11px
+            width: 40%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 5px;
         }
 
-        .player_one ul {
-            list-style: none;
+        ul {
             padding: 0;
             margin: 0;
+            text-align: left;
         }
 
-        .player_one li {
-            padding: 5px 0;
+        li {
+            list-style-type: none;
+            margin: 8px 0;
             font-size: 1.1em;
-            color: #333;
         }
 
-        .player_one {
-            width: 100%;
-            max-width: 600px;
-            background-color: white;
-            border: 1px solid black;
-            padding: 10px;
-            margin-top: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        video {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        audio {
-            width: 100%;
-            margin-top: 5px;
-            margin-bottom: 10px;
-        }
-        .media-info {
+        /* === Player Containers === */
+        .player-container {
+            background-color: rgb(255, 255, 255);
+            width: 60%;
+            margin: 10px auto;
+            padding: 20px;
             text-align: center;
-            font-weight: bold;
-            margin-top: 10px;
-            margin-bottom: 5px;
         }
-        .player_two{
-            font-size: 0.9em;
-            color: #555;
-            padding: 5px 0 0 0;
+
+        video, audio {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* === Links === */
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: darkred;
+            text-decoration: underline;
         }
